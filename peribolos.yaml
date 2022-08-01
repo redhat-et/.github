@@ -1,0 +1,557 @@
+orgs:
+  redhat-et:
+    admins:
+      - durandom
+      - erinaboyd
+      - jeffvance
+      - ksprinkl
+      - lukehinds
+      - nhr
+      - wattsteve
+    billing_email: hripps@redhat.com
+    company: ""
+    default_repository_permission: read
+    description: ""
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ""
+    members:
+      - aakankshaduggal
+      - anfredette
+      - astoycos
+      - Billy99
+      - cburkhardt27
+      - chauhankaranraj
+      - cmagina
+      - codificat
+      - cooktheryan
+      - copejon
+      - dave-tucker
+      - djach7
+      - dmick
+      - donaldh
+      - erikerlandson
+      - fisch-sec
+      - font
+      - fzdarsky
+      - Gkrumbach07
+      - goern
+      - guymguym
+      - harshad16
+      - hemajv
+      - husky-parul
+      - jyotsna-penumaka
+      - krishchow
+      - krmurph
+      - leseb
+      - lkatalin
+      - mangelajo
+      - maroroman
+      - maryamtahhan
+      - mayaCostantini
+      - mbestavros
+      - MichaelClifford
+      - mjiao
+      - mpeters
+      - nerdalert
+      - oglok
+      - oindrillac
+      - pacospace
+      - Punakshi
+      - rishirich
+      - RobotSail
+      - rootfs
+      - sallyom
+      - schwesig
+      - screeley44
+      - seroyer
+      - Shreyanand
+      - srampal
+      - sseif-rh
+      - stflaherty
+      - suppathak
+      - tesseract-rh
+      - tumido
+      - vishnoianil
+      - yaarith
+      - yehudasa
+    members_can_create_repositories: true
+    name: Red Hat Emerging Technologies
+    repos:
+      .github:
+        default_branch: main
+        has_projects: true
+      AI-for-edge-microshift-demo:
+        default_branch: main
+        description: This repository contains the code developed for the talk "AI at the Edge with MicroShift" developed by Miguel Angel Ajo and Ricardo Noriega.
+        has_projects: true
+      Real-Time-Data-Anonymization:
+        description: This repo contains demo for KubeCon 2021 talk Real-Time Data Anonymization the Serverless Way - Yuval Lifshitz & Huamin Chen, Red Hat
+        has_projects: true
+      Summit2020LogoDetection:
+        has_issues: false
+        has_projects: true
+      axon-proto:
+        default_branch: main
+        description: This repo is a place for collaboration on a new multi-cloud gateway
+        has_projects: true
+        has_wiki: false
+        private: true
+      bpfd:
+        default_branch: main
+        description: a prototype networking bpf loader
+        has_projects: true
+      caliper:
+        description: A simple CLI tool to grab some simple pod metrics from a prometheus interface
+        has_projects: true
+      ceph-mirroring:
+        has_projects: true
+      copilot-operator:
+        allow_merge_commit: false
+        allow_squash_merge: false
+        archived: true
+        default_branch: main
+        description: Cluster Operator for YAML Completion AI Services
+        has_projects: true
+      copilot-ops:
+        allow_merge_commit: false
+        allow_squash_merge: false
+        default_branch: main
+        description: copilot-ops is a CLI tool that boosts up any DevOps repo to a ninja level of Artificially Intelligent Ops Repo
+        has_projects: true
+      copilot-ops-bot:
+        default_branch: main
+        description: GitHub App for copilot-ops
+        has_projects: true
+      crossplane-quay:
+        has_projects: true
+      devhealth:
+        default_branch: main
+        description: Device health monitoring
+        has_projects: true
+        private: true
+      ebpf-mod:
+        default_branch: main
+        description: Repository contains eBPF modules that provide specific network functions
+        has_projects: true
+        private: true
+      edge-benchmark:
+        default_branch: main
+        has_projects: true
+        has_wiki: false
+        private: true
+      edge-device-tester:
+        default_branch: main
+        has_projects: true
+        has_wiki: false
+        private: true
+      edge-security-demo:
+        has_projects: true
+      edge-streaming-demo:
+        has_projects: true
+      emerita:
+        default_branch: main
+        description: A Lightweight CNI Plugin using eBPF
+        has_projects: true
+        private: true
+      et-toolbox:
+        default_branch: main
+        description: Repo of scripts and tiny helper apps for common use across the Emerging Technologies team
+        has_projects: true
+        private: true
+      glowing-quantum:
+        has_issues: false
+        has_projects: true
+      homomorphic-learning:
+        default_branch: main
+        description: Methodology study for multi-party learning (aka Homomorphic Learning)
+        has_projects: true
+      ibm-quantum-operator:
+        has_projects: true
+      ipfs-operator:
+        default_branch: main
+        has_projects: true
+      ipfs-rpm:
+        default_branch: main
+        has_projects: true
+      kcp:
+        default_branch: main
+        description: kcp is a prototype of a multi-tenant Kubernetes control plane for workloads on many clusters
+        has_issues: false
+        has_projects: true
+      kpng:
+        description: Reworking kube-proxy's architecture
+        has_issues: false
+        has_projects: true
+      kube-nfs-kerberos:
+        default_branch: main
+        has_projects: true
+      kubernetes-the-hard-way:
+        description: Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.
+        has_projects: true
+      kubo:
+        description: IPFS implementation in Go
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+        homepage: https://ipfs.io
+      learn-katacoda:
+        description: The OpenShift learning portal, powered by Katacoda
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+        homepage: https://learn.openshift.com
+      limani:
+        default_branch: main
+        description: limani is a prototype for a Kubernetes based edge device and cluster management framework
+        has_projects: true
+        private: true
+      microshift-config:
+        default_branch: main
+        description: Device configurations to deploy Microshift on RHEL for Edge
+        has_projects: true
+      microshift-demos:
+        default_branch: main
+        has_projects: true
+      microshift-documentation:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        default_branch: main
+        description: Documentation source for microshift.io
+        has_projects: true
+        homepage: https://microshift.io
+      microshift-image-builder:
+        has_projects: true
+        has_wiki: false
+        private: true
+      microshift-katacoda:
+        default_branch: main
+        description: Demonstration of MicroShift using Katacoda
+        has_projects: true
+      microshift-openstack:
+        default_branch: main
+        has_projects: true
+        has_wiki: false
+        private: true
+      mock-device-manager:
+        description: 'Simple service for provisioning Fedora IoT images '
+        has_projects: true
+        has_wiki: false
+        private: true
+      mock-project1:
+        default_branch: main
+        has_projects: true
+        private: true
+      net-ebpf-playground:
+        default_branch: main
+        has_projects: true
+      nvidia-sidecar-rpm:
+        default_branch: main
+        has_projects: true
+        private: true
+      olm-repackage:
+        has_projects: true
+      ones21-fl-demo:
+        description: This repo contains demo for "Federated Learning All-in-One Box",  Huamin Chen,  Ricardo Noriega De Soto. Open Networking & EDGE Summit  + Kubernetes on EDGE Day 2021
+        has_projects: true
+      opa-example-app:
+        description: Example application to work with Open Policy Agent (OPA) and OpenShift Pipelines
+        has_projects: true
+      openshift-quantum-operators:
+        has_issues: false
+        has_projects: true
+      patu:
+        allow_merge_commit: false
+        default_branch: main
+        description: 'Lightweight CNI for Container Orchestrators managing resource constrained devices. '
+        has_projects: true
+        private: true
+      performance-benchmarking:
+        default_branch: main
+        description: Collection of tools and automations for benchmarking data paths
+        has_projects: true
+      poka-yoke:
+        default_branch: main
+        description: Power Optimized Kubernetes Autoscaler - You Only Keep Endpoints
+        has_projects: true
+        has_wiki: false
+        private: true
+      powder:
+        has_projects: true
+        has_wiki: false
+        private: true
+      prometheus-federation:
+        has_projects: true
+      provider-aws:
+        description: Crossplane Amazon Web Services (AWS) infrastructure provider.
+        has_issues: false
+        has_projects: true
+      provider-ci:
+        default_branch: main
+        has_projects: true
+      provider-gcp:
+        description: Crossplane Google Cloud Platform (GCP) infrastructure provider
+        has_issues: false
+        has_projects: true
+      quantum-faq:
+        default_branch: main
+        description: Collection of Quantum Computing resources and FAQs for people of all levels
+        has_projects: true
+      quay-chart:
+        has_projects: true
+      ray-on-the-edge-demo:
+        default_branch: main
+        description: 'A proof of concept for machine learning workflows using the Ray stack in the data center and at the edge. '
+        has_projects: true
+      rgw-standalone-operator:
+        default_branch: main
+        description: A Kubernetes Operator to deploy an Object Storage for Edge
+        has_projects: true
+        private: true
+      sap-data-intelligence:
+        archived: true
+        description: Utilities for SAP Data Intelligence
+        has_issues: false
+        has_projects: true
+      scribe-poc:
+        default_branch: main
+        has_projects: true
+      security-team:
+        default_branch: main
+        description: Security Team Repository
+        has_projects: true
+        has_wiki: false
+        private: true
+      sigstore-demo:
+        default_branch: main
+        has_projects: true
+      sigstore-rpms:
+        default_branch: main
+        description: Sigstore RPMs
+        has_projects: true
+      storage-ransomeware-detector:
+        default_branch: main
+        description: 'Open Source Summit NA 2022: Manage Session Let Your Cloud Native Storage Save You from Ransomware! - Yuval Lifshitz & Huamin Chen, Red Hat'
+        has_projects: true
+      transmission:
+        allow_merge_commit: false
+        default_branch: main
+        has_projects: true
+      ushift:
+        default_branch: main
+        description: This repo contains the uShift deployment-time artifacts.
+        has_projects: true
+        has_wiki: false
+        private: true
+      ushift-analysis:
+        default_branch: main
+        has_projects: true
+        has_wiki: false
+        private: true
+      ushift-ostree:
+        default_branch: main
+        description: This repo contains configs and scripts for the uShift ostree compose.
+        has_projects: true
+        has_wiki: false
+        private: true
+      ushift-runtime:
+        default_branch: release-1.19-ocp-4.6
+        has_projects: true
+        has_wiki: false
+        private: true
+      ushift-workload:
+        description: Workload tested on Microshift
+        has_projects: true
+      vagrant:
+        default_branch: main
+        description: Internal repository for sharing vagrant boxes and configuration
+        has_projects: true
+        has_wiki: false
+        private: true
+    teams:
+      Computational Infrastructure:
+        description: ""
+        maintainers:
+          - nhr
+          - krmurph
+        members:
+          - leseb
+          - cmagina
+          - seroyer
+        privacy: closed
+        repos:
+          et-toolbox: maintain
+      Data Science:
+        description: ""
+        maintainers:
+          - erikerlandson
+          - nhr
+          - MichaelClifford
+        members:
+          - leseb
+          - hemajv
+          - Shreyanand
+          - chauhankaranraj
+          - aakankshaduggal
+          - suppathak
+          - oindrillac
+        privacy: closed
+        repos:
+          homomorphic-learning: maintain
+      Edge:
+        description: ""
+        maintainers:
+          - nhr
+          - fzdarsky
+        members:
+          - leseb
+          - mangelajo
+          - oglok
+          - copejon
+          - rootfs
+          - astoycos
+          - sseif-rh
+          - mjiao
+        privacy: closed
+        repos:
+          edge-device-tester: write
+          et-toolbox: maintain
+          microshift-demos: write
+          microshift-documentation: admin
+          microshift-katacoda: maintain
+          microshift-openstack: write
+          mock-device-manager: admin
+          transmission: write
+          ushift: admin
+          ushift-ostree: admin
+          vagrant: maintain
+      Networking:
+        description: ""
+        maintainers:
+          - nhr
+          - stflaherty
+        members:
+          - donaldh
+          - leseb
+          - anfredette
+          - vishnoianil
+          - dave-tucker
+          - maryamtahhan
+          - srampal
+          - Punakshi
+          - Billy99
+          - astoycos
+        privacy: closed
+        repos:
+          bpfd: triage
+          emerita: triage
+          et-toolbox: maintain
+          net-ebpf-playground: write
+      Open Services:
+        description: ""
+        maintainers:
+          - durandom
+          - goern
+          - nhr
+          - MichaelClifford
+        members:
+          - erikerlandson
+          - codificat
+          - leseb
+          - tumido
+          - Shreyanand
+          - Gkrumbach07
+          - harshad16
+          - chauhankaranraj
+          - aakankshaduggal
+          - pacospace
+          - suppathak
+          - maroroman
+          - mayaCostantini
+          - schwesig
+        privacy: closed
+        repos:
+          et-toolbox: maintain
+      Platform:
+        description: ""
+        maintainers:
+          - nhr
+          - screeley44
+        members:
+          - leseb
+          - guymguym
+          - cooktheryan
+          - copejon
+          - sallyom
+          - husky-parul
+          - krishchow
+          - djach7
+          - RobotSail
+        privacy: closed
+        repos:
+          crossplane-quay: admin
+          et-toolbox: maintain
+          glowing-quantum: admin
+          ipfs-operator: maintain
+          microshift-documentation: admin
+          microshift-katacoda: maintain
+          microshift-openstack: write
+          olm-repackage: read
+          provider-ci: read
+          quay-chart: read
+          vagrant: maintain
+        teams:
+          Quantum:
+            description: ""
+            maintainers:
+              - nhr
+            members:
+              - leseb
+              - husky-parul
+            privacy: closed
+            repos:
+              crossplane-quay: admin
+              et-toolbox: maintain
+              glowing-quantum: admin
+              ipfs-operator: maintain
+              microshift-documentation: admin
+              microshift-katacoda: maintain
+              microshift-openstack: write
+              olm-repackage: read
+              provider-ci: read
+              quay-chart: read
+              vagrant: maintain
+      Security:
+        description: ""
+        maintainers:
+          - nhr
+          - lukehinds
+        members:
+          - mpeters
+          - leseb
+          - font
+          - mbestavros
+          - lkatalin
+          - jyotsna-penumaka
+          - fisch-sec
+          - cburkhardt27
+        privacy: closed
+        repos:
+          Summit2020LogoDetection: read
+          edge-security-demo: maintain
+          et-toolbox: maintain
+          opa-example-app: read
+          security-team: admin
+      Storage:
+        description: ""
+        maintainers:
+          - yehudasa
+          - nhr
+        members:
+          - leseb
+          - dmick
+          - seroyer
+        privacy: closed
+        repos:
+          et-toolbox: maintain
